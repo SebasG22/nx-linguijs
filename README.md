@@ -104,8 +104,9 @@ function CustomApp({ Component, pageProps }: AppProps) {
 export default CustomApp;
 
 
-### Basic Workflow
 ```
+### Basic Workflow
+
 1. Now let's add a a translation usign `Trans`. 
 
 ```tsx
