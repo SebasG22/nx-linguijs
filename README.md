@@ -5,8 +5,9 @@ This project was generated using [Nx](https://nx.dev).
 
 <p align="center"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="150"></p>
 
-Are you interested in the setup process for LinguiJS in nx repo ?
+### Are you interested in the setup process for LinguiJS in nx repo ?
 Please check this guide [Setup](./setup.md)
+
 
 🔎 **Nx is a set of Extensible Dev Tools for Monorepos.**
 

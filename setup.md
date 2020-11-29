@@ -6,7 +6,7 @@ This instructions are used to setup linguiJS in a nx monorepo. We will use the s
 
 1. Generate a react application:
 
-```
+```bash
 yarn nx g @nrwl/next:application inbox-mail
 ```
 
@@ -17,7 +17,7 @@ The generate command added two projects to our workspace:
 
 2. You can serve the newly created application
 
-```
+```bash
 yarn nx serve inbox-mail
 ```
 
@@ -166,7 +166,7 @@ Let’s add a Spanish translation:
 ```
 
 5. That’s great! So, how we’re going to load it into your app? `LinguiJS` introduces concept of compiled message catalogs. Before we load messages into your app, we need to compile them. As you see in the help in command output, we use compile for that:
-```
+```bash
 yarn lingui compile
 #output:
 Compiling message catalogs…
@@ -232,7 +232,7 @@ Let’s add a Spanish translation:
 ```json
 {
    "Message Inbox": "Aplicacion de mensajeria",
-   "Welcome to inbox-mail-ui!": "Bienvenido a inbox-mail-ui!"
+   "Welcome to inbox-messages!": "Bienvenido a inbox-messages!"
 }
 ```
 
@@ -277,7 +277,7 @@ Error: Element type is invalid: expected a string (for built-in components) or a
 
 One clue of this issues is the message error that says not can't resolve a module on the package `@lingui/conf`. But if you want to go deeper, you can comment the `<Trans>` and the app should run as expected but without translations.
 
-```
+```tsx
 import React from 'react';
 import { Trans } from '@lingui/macro';
 
