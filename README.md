@@ -276,6 +276,9 @@ Error: Element type is invalid: expected a string (for built-in components) or a
 
 ```
 
+Please check the bug reported:
+https://github.com/lingui/js-lingui/issues/894
+
 One clue of this issues is the message error that says not can't resolve a module on the package `@lingui/conf`. But if you want to go deeper, you can comment the `<Trans>` and the app should run as expected but without translations.
 
 ```tsx
