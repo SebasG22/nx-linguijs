@@ -1,0 +1,19 @@
+{
+ "catalogs": [{
+   "path": "<rootDir>/apps/inbox-mail/locales/{locale}/messages",
+   "include": ["<rootDir>"],
+   "exclude": ["**/node_modules/**"]
+ }],
+ "compileNamespace": "cjs",
+"extractBabelOptions": {
+   "rootMode": "upward",
+ },
+ "fallbackLocales": {},
+ "format": "minimal",
+ "locales": ["en", "es"],
+ "orderBy": "messageId",
+ "pseudoLocale": "",
+ "rootDir": ".",
+ "runtimeConfigModule": ["@lingui/core", "i18n"],
+ "sourceLocale": "",
+}

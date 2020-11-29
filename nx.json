@@ -22,5 +22,16 @@
       }
     }
   },
-  "projects": {}
+  "projects": {
+    "inbox-mail": {
+      "tags": []
+    },
+    "inbox-mail-e2e": {
+      "tags": [],
+      "implicitDependencies": ["inbox-mail"]
+    },
+    "inbox-mail-ui": {
+      "tags": []
+    }
+  }
 }
